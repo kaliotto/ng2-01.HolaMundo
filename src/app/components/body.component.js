@@ -11,6 +11,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var BodyComponent = (function () {
     function BodyComponent() {
+        this.mostrar = true;
+        this.texto = "Un gran poder conlleva una gran responsabilidad.";
+        this.autor = "Tío Ben";
+        this.personajes = ["Peter Parker", "Venom", "Mary Jane", "Tía May"];
     }
     BodyComponent = __decorate([
         core_1.Component({
